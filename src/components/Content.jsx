@@ -3,8 +3,8 @@ import SendMessage from "./SendMessage";
 
 function Content() {
   return (
-    <div className="grid grid-cols-12 overflow-visible" >
-      <div className="bg-red-500 h-screen col-span-2 w-50 overflow-scroll"> 
+    <div className="bg-yellow-500 h-lvh grid grid-cols-12 " >
+      <div className="bg-red-500 h-50 col-span-2 w-50 overflow-scroll"> 
       <div className="bg-green-400 w-20 h-20 my-1">1</div>
       <div className="bg-green-400 w-20 h-20 my-1"></div>
       <div className="bg-green-400 w-20 h-20 my-1"></div>
@@ -25,7 +25,7 @@ function Content() {
 
       </div>
 
-      <div className=" col-span-10 h-screen overflow-y-scroll">
+      <div className=" col-span-10 h-100% overflow-y-scroll">
         <div className="hero bg-base-200">
           <div className="hero-content text-center">
             <div className="max-w-2xl">

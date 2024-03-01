@@ -2,7 +2,7 @@ import React from 'react'
 
 function SendMessage() {
   return (
-    <div className='fixed bottom-16 border w-full shadow-md'>
+    <div className='sticky bottom-0 border w-full shadow-md'>
       SendMessage
     </div>
   )
