@@ -3,29 +3,28 @@ import SendMessage from "./SendMessage";
 
 function Content() {
   return (
-    <div className="bg-yellow-500 h-lvh grid grid-cols-12 " >
-      <div className="bg-red-500 h-50 col-span-2 w-50 overflow-scroll"> 
-      <div className="bg-green-400 w-20 h-20 my-1">1</div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1"></div>
-      <div className="bg-green-400 w-20 h-20 my-1 text-red-600">10</div>
-
+    <div className="bg-yellow-500 grid grid-cols-12 h-52">
+      <div className="bg-red-500 col-span-2 w-50 overflow-scroll h-52">
+        <div className="bg-green-400 w-20 h-20 my-1">1</div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1"></div>
+        <div className="bg-green-400 w-20 h-20 my-1 text-red-600">10</div>
       </div>
 
-      <div className=" col-span-10 h-100% overflow-y-scroll">
+      <div className=" col-span-10 h-52 overflow-auto">
         <div className="hero bg-base-200">
           <div className="hero-content text-center">
             <div className="max-w-2xl">
