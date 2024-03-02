@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="fixed bottom-0 footer flex justify-between items-center p-4 bg-neutral text-neutral-content">
+    <footer className="h-[3rem] footer flex justify-between items-center p-4 bg-neutral text-neutral-content">
       <p> Created By Pranjal Chandra </p>
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
         <a>

@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import SendMessage from "./SendMessage";
 
 function Content() {
+  const [searchHeight, setSearchHeight] = useState("45px");
   return (
-    <div className="bg-yellow-500 grid grid-cols-12 h-52">
-      <div className="bg-red-500 col-span-2 w-50 overflow-scroll h-52">
+    <div className="bg-base-200 grid grid-cols-12 h-[calc(100vh-7rem)]">
+      <div className="bg-base-300 col-span-2 w-50 overflow-y-scroll">
         <div className="bg-green-400 w-20 h-20 my-1">1</div>
         <div className="bg-green-400 w-20 h-20 my-1"></div>
         <div className="bg-green-400 w-20 h-20 my-1"></div>
@@ -24,8 +25,11 @@ function Content() {
         <div className="bg-green-400 w-20 h-20 my-1 text-red-600">10</div>
       </div>
 
-      <div className=" col-span-10 h-52 overflow-auto">
-        <div className="hero bg-base-200">
+      <div
+        className="col-span-10 overflow-auto"
+        style={{ height: `calc(100% -${searchHeight})` }}
+      >
+        <div className="hero flex flex-col">
           <div className="hero-content text-center">
             <div className="max-w-2xl">
               <h1 className="text-5xl font-bold">Hello there</h1>
@@ -405,7 +409,10 @@ function Content() {
             </div>
           </div>
         </div>
-        <SendMessage />
+        <SendMessage
+          searchHeight={searchHeight}
+          setSearchHeight={setSearchHeight}
+        />
       </div>
     </div>
   );
